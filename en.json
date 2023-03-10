@@ -219,7 +219,7 @@ If you don’t have symptoms in your hands, you can compare how your fingers fee
     {
         "great-toe-test-information":
         {
-            "title": "Great toe test",
+            "title": "Motor examination",
             "info": "Here you will test the strength of your great toes.
 
 
@@ -257,8 +257,12 @@ If you feel your great toe is weaker, answer YES to this question."
             "title": "General symptoms",
             "question": "In your day-to-day life, do you notice any symptoms in your legs or feet?",
             "info": "Examples of symptoms are numbness, pain, or other unexpected sensations.",
-            "button-left": "Yes",
-            "button-right": "No",
+            "option-1": "No symptoms",
+            "option-2": "In the toes",
+            "option-3": "Up to the ankle",
+            "option-4": "Up to the knee",
+            "option-5": "Beyond the knee",
+            "button-continue": "Continue",
         },
     },
     "pain":
