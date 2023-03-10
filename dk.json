@@ -122,6 +122,62 @@ Svar TILSVARENDE, hvis området er mere følsomt over for prik end referenceomr�
             "button-right": "Nej",
         },
     },
+    "symptoms":
+    {
+        "symptoms-screen":
+        {
+            "title": "Generelle symptomer",
+            "question": "Bemærker du nogen symptomer i dine ben eller fødder i din dagligdag?",
+            "info": "Symptomer kunne for eksempel være følelsesløshed, smerte, eller andre uventede følelser.",
+            "option-1": "Ingen symptomer",
+            "option-2": "I tæerne",
+            "option-3": "Op til anklen",
+            "option-4": "Op til knæet",
+            "option-5": "Længere end knæet",
+            "button-continue": "Videre",
+        },
+    },
+    "pain":
+    {
+        "pain-skip":
+        {
+            "instructions": "Besvar venligst de følgende spørgsmål, hvis du oplever smerte.
+
+Tryk SPRING OVER hvis det ikke er tilfældet.",
+            "button-left": "Videre",
+            "button-right": "Spring over",
+        },
+        "pain-1":
+        {
+            "question": "Har smerten et eller flere af følgende kendetegn?",
+            "option-1": "Brændende",
+            "option-2": "Smertefuld kold",
+            "option-3": "Elektriske stød",
+            "instructions": "Markér alle, der gør sig gældende",
+            "button-continue": "Videre"
+        },
+        "pain-2":
+        {
+            "question": "Er smerten forbundet med et eller flere af følgende symptomer inden for samme område?",
+            "option-1": "Snurren",
+            "option-2": "Stikken og prikken",
+            "option-3": "Følelsesløshed",
+            "option-4": "Kløe",
+            "instructions": "Markér alle der gør sig gældende",
+            "button-continue": "Videre"
+        },
+        "pain-3":
+        {
+            "question-1": "Kan smerten forårsages eller intensiveres af strygende berøring i det smertefulde område?",
+            "button-left": "Ja",
+            "button-right": "Nej",
+            "question-2": "Er smerten lokaliserret til et område, hvor den objektive undersøgelse kan afsløre ét eller flere af følgende kendetegn?:",
+            "option-1": "Forøget følsomhed over for berøring",
+            "option-2": "Forøget følsomhed over for stik",
+            "instructions": "Markér alle der gør sig gældende",
+            "button-continue": "Videre"
+        },
+    },
     "vibration":
     {
         "vibration-intro":
@@ -250,60 +306,5 @@ Hvis du ikke har symptomer i dine hænder, kan du sammenligne hvordan dine fingr
 Svar JA til dette spørgsmål, hvis du føler at din storetå er svagere end dine fingre."
         },
     },
-    "symptoms":
-    {
-        "symptoms-screen":
-        {
-            "title": "Generelle symptomer",
-            "question": "Bemærker du nogen symptomer i dine ben eller fødder i din dagligdag?",
-            "info": "Symptomer kunne for eksempel være følelsesløshed, smerte, eller andre uventede følelser.",
-            "option-1": "Ingen symptomer",
-            "option-2": "I tæerne",
-            "option-3": "Op til anklen",
-            "option-4": "Op til knæet",
-            "option-5": "Længere end knæet",
-            "button-continue": "Videre",
-        },
-    },
-    "pain":
-    {
-        "pain-skip":
-        {
-            "instructions": "Besvar venligst de følgende spørgsmål, hvis du oplever smerte.
 
-Tryk SPRING OVER hvis det ikke er tilfældet.",
-            "button-left": "Videre",
-            "button-right": "Spring over",
-        },
-        "pain-1":
-        {
-            "question": "Har smerten et eller flere af følgende kendetegn?",
-            "option-1": "Brændende",
-            "option-2": "Smertefuld kold",
-            "option-3": "Elektriske stød",
-            "instructions": "Markér alle, der gør sig gældende",
-            "button-continue": "Videre"
-        },
-        "pain-2":
-        {
-            "question": "Er smerten forbundet med et eller flere af følgende symptomer inden for samme område?",
-            "option-1": "Snurren",
-            "option-2": "Stikken og prikken",
-            "option-3": "Følelsesløshed",
-            "option-4": "Kløe",
-            "instructions": "Markér alle der gør sig gældende",
-            "button-continue": "Videre"
-        },
-        "pain-3":
-        {
-            "question-1": "Kan smerten forårsages eller intensiveres af strygende berøring i det smertefulde område?",
-            "button-left": "Ja",
-            "button-right": "Nej",
-            "question-2": "Er smerten lokaliserret til et område, hvor den objektive undersøgelse kan afsløre ét eller flere af følgende kendetegn?:",
-            "option-1": "Forøget følsomhed over for berøring",
-            "option-2": "Forøget følsomhed over for stik",
-            "instructions": "Markér alle der gør sig gældende",
-            "button-continue": "Videre"
-        },
-    },
 }
