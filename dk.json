@@ -219,7 +219,7 @@ Hvis du ikke har symptomer i dine hænder, kan du sammenligne hvordan dine fingr
     {
         "great-toe-test-information":
         {
-            "title": "Storetåstest",
+            "title": "Motorisk test",
             "info": "Her testes dine storetæers styrke.
 
 
@@ -257,8 +257,12 @@ Svar JA til dette spørgsmål, hvis du føler at din storetå er svagere end din
             "title": "Generelle symptomer",
             "question": "Bemærker du nogen symptomer i dine ben eller fødder i din dagligdag?",
             "info": "Symptomer kunne for eksempel være følelsesløshed, smerte, eller andre uventede følelser.",
-            "button-left": "Ja",
-            "button-right": "Nej",
+            "option-1": "Ingen symptomer",
+            "option-2": "I tæerne",
+            "option-3": "Op til anklen",
+            "option-4": "Op til knæet",
+            "option-5": "Længere end knæet",
+            "button-continue": "Videre",
         },
     },
     "pain":
@@ -285,7 +289,7 @@ Tryk SPRING OVER hvis det ikke er tilfældet.",
             "question": "Er smerten forbundet med et eller flere af følgende symptomer inden for samme område?",
             "option-1": "Snurren",
             "option-2": "Stikken og prikken",
-            "option-3": "følelsesløshed",
+            "option-3": "Følelsesløshed",
             "option-4": "Kløe",
             "instructions": "Markér alle der gør sig gældende",
             "button-continue": "Videre"
