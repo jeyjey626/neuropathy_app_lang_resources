@@ -122,6 +122,62 @@ If you feel the area is more sensitive to pricking than your referenced area, an
             "button-right": "NO",
         },
     },
+    "symptoms":
+    {
+        "symptoms-screen":
+        {
+            "title": "General symptoms",
+            "question": "In your day-to-day life, do you notice any symptoms in your legs or feet?",
+            "info": "Examples of symptoms are numbness, pain, or other unexpected sensations.",
+            "option-1": "No symptoms",
+            "option-2": "In the toes",
+            "option-3": "Up to the ankle",
+            "option-4": "Up to the knee",
+            "option-5": "Beyond the knee",
+            "button-continue": "Continue",
+        },
+    },
+    "pain":
+    {
+        "pain-skip":
+        {
+            "instructions": "If you are experiencing pain, please answer the following questions.
+
+Otherwise, press the SKIP button.",
+            "button-left": "Continue",
+            "button-right": "Skip",
+        },
+        "pain-1":
+        {
+            "question": "Does your pain present one or more of the following characteristics?",
+            "option-1": "Pain feels like burning",
+            "option-2": "Sensation of painful cold",
+            "option-3": "Pain feels like electric shocks",
+            "instructions": "Check all that apply",
+            "button-continue": "Continue"
+        },
+        "pain-2":
+        {
+            "question": "In the same area, is your pain associated to one or more symptoms?",
+            "option-1": "Tingling",
+            "option-2": "Pins and needles",
+            "option-3": "Numbness",
+            "option-4": "Itching",
+            "instructions": "Check all that apply",
+            "button-continue": "Continue"
+        },
+        "pain-3":
+        {
+            "question-1": "Is the pain provoked or increased by brushing?",
+            "button-left": "Yes",
+            "button-right": "No",
+            "question-2": "Is the pain located in an area where the examination unveiled:",
+            "option-1": "Increased sensitivity to touch",
+            "option-2": "Increased sensitivity to pricking",
+            "instructions": "Check all that apply",
+            "button-continue": "Continue"
+        },
+    },
     "vibration":
     {
         "vibration-intro":
@@ -250,60 +306,5 @@ If you don’t have symptoms in your hands, you can compare how your fingers fee
 If you feel your great toe is weaker, answer YES to this question."
         },
     },
-    "symptoms":
-    {
-        "symptoms-screen":
-        {
-            "title": "General symptoms",
-            "question": "In your day-to-day life, do you notice any symptoms in your legs or feet?",
-            "info": "Examples of symptoms are numbness, pain, or other unexpected sensations.",
-            "option-1": "No symptoms",
-            "option-2": "In the toes",
-            "option-3": "Up to the ankle",
-            "option-4": "Up to the knee",
-            "option-5": "Beyond the knee",
-            "button-continue": "Continue",
-        },
-    },
-    "pain":
-    {
-        "pain-skip":
-        {
-            "instructions": "If you are experiencing pain, please answer the following questions.
 
-Otherwise, press the SKIP button.",
-            "button-left": "Continue",
-            "button-right": "Skip",
-        },
-        "pain-1":
-        {
-            "question": "Does your pain present one or more of the following characteristics?",
-            "option-1": "Pain feels like burning",
-            "option-2": "Sensation of painful cold",
-            "option-3": "Pain feels like electric shocks",
-            "instructions": "Check all that apply",
-            "button-continue": "Continue"
-        },
-        "pain-2":
-        {
-            "question": "In the same area, is your pain associated to one or more symptoms?",
-            "option-1": "Tingling",
-            "option-2": "Pins and needles",
-            "option-3": "Numbness",
-            "option-4": "Itching",
-            "instructions": "Check all that apply",
-            "button-continue": "Continue"
-        },
-        "pain-3":
-        {
-            "question-1": "Is the pain provoked or increased by brushing?",
-            "button-left": "Yes",
-            "button-right": "No",
-            "question-2": "Is the pain located in an area where the examination unveiled:",
-            "option-1": "Increased sensitivity to touch",
-            "option-2": "Increased sensitivity to pricking",
-            "instructions": "Check all that apply",
-            "button-continue": "Continue"
-        },
-    },
 }
