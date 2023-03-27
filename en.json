@@ -1,14 +1,31 @@
 {
     "app-title": "Neuropathy App",
-    "global":
+    "common":
     {
-        "overlay-quit-examination":
+        "buttons":
         {
-            "title": "Quit examination?",
-            "info": "Your progress in this examination will be lost if you quit before completing it.",
-            "cancel": "cancel",
-            "quit": "quit"
+            "cancel": "Cancel",
+            "quit": "Quit",
+            "continue": "Continue",
+            "similar": "Similar",
+            "reduced": "Reduced",
+            "absent": "Absent",
+            "yes": "Yes",
+            "no": "No",
+            "skip": "Skip"
+        },
+        "terms":
+        {
+            "left-leg": "Left leg",
+            "right-leg": "Right leg",
+            "left-great-toe": "Left great toe",
+            "right-great-toe": "Right great toe"
         }
+    },
+    "overlay-quit-examination":
+    {
+        "title": "Quit examination?",
+        "info": "Your progress in this examination will be lost if you quit before completing it."
     },
     "main-menu":
     {
@@ -40,36 +57,23 @@
         "prick-test-information":
         {
             "title": "Prick test",
-            "info": "Here you will test the prick-sensitivity of your legs using a toothpick.\n\n\nChoose either the neck or the clavicle area to use as reference\n\n\nPrick the reference area multiple times to compare sensitivity with the tested areas.",
-            "button-continue": "continue"
+            "info": "Here you will test the prick-sensitivity of your legs using a toothpick.\n\n\nChoose either the neck or the clavicle area to use as reference\n\n\nPrick the reference area multiple times to compare sensitivity with the tested areas."
         },
         "right-prick":
         {
-            "right-leg": "Right leg",
-            "instructions": "Prick multiple spots in the blue area and select your general prick sensitivity compared to the reference area.",
-            "button-left": "similar",
-            "button-mid": "Reduced",
-            "button-right": "absent"
+            "instructions": "Prick multiple spots in the blue area and select your general prick sensitivity compared to the reference area."
         },
         "right-prick-end":
         {
-            "right-leg": "Right leg",
-            "completed": "Right leg completed!",
-            "button-continue": "Continue"
+            "completed": "Right leg completed!"
         },
         "left-prick":
         {
-            "left-leg": "Left leg",
-            "instructions": "Prick multiple spots in the blue area and select your general prick sensitivity compared to the reference area.",
-            "button-left": "similar",
-            "button-mid": "Reduced",
-            "button-right": "absent"
+            "instructions": "Prick multiple spots in the blue area and select your general prick sensitivity compared to the reference area."
         },
         "left-prick-end":
         {
-            "left-leg": "Left leg",
-            "completed": "Left leg completed!",
-            "button-continue": "Continue"
+            "completed": "Left leg completed!"
         },
         "overlay-pin-prick":
         {
@@ -81,31 +85,19 @@
     {
         "allodynia-left":
         {
-            "left-leg": "Left leg",
-            "question": "During the pin-prick examination, did you feel increased pain from pricking in any of the areas compared to the reference area?",
-            "button-left": "Yes",
-            "button-right": "NO"
+            "question": "During the pin-prick examination, did you feel increased pain from pricking in any of the areas compared to the reference area?"
         },
         "allodynia-right":
         {
-            "right-leg": "Right leg",
-            "question": "During the pin-prick examination, did you feel increased pain from pricking in any of the areas compared to the reference area?",
-            "button-left": "Yes",
-            "button-right": "NO"
+            "question": "During the pin-prick examination, did you feel increased pain from pricking in any of the areas compared to the reference area?"
         },
         "hypersensitivity-left":
         {
-            "left-leg": "Left leg",
-            "question": "Do you feel increased discomfort or pain when touching any of the examined areas?",
-            "button-left": "Yes",
-            "button-right": "NO"
+            "question": "Do you feel increased discomfort or pain when touching any of the examined areas?"
         },
         "hypersensitivity-right":
         {
-            "right-leg": "Right leg",
-            "question": "Do you feel increased discomfort or pain when touching any of the examined areas?",
-            "button-left": "Yes",
-            "button-right": "NO"
+            "question": "Do you feel increased discomfort or pain when touching any of the examined areas?"
         }
     },
     "symptoms":
@@ -119,17 +111,14 @@
             "option-2": "In the toes",
             "option-3": "Up to the ankle",
             "option-4": "Up to the knee",
-            "option-5": "Beyond the knee",
-            "button-continue": "Continue"
+            "option-5": "Beyond the knee"
         }
     },
     "pain":
     {
         "pain-skip":
         {
-            "instructions": "If you are experiencing pain, please answer the following questions.\n\nOtherwise, press the SKIP button.",
-            "button-left": "Continue",
-            "button-right": "Skip"
+            "instructions": "If you are experiencing pain, please answer the following questions.\n\nOtherwise, press the SKIP button."
         },
         "pain-1":
         {
@@ -137,8 +126,7 @@
             "option-1": "Pain feels like burning",
             "option-2": "Sensation of painful cold",
             "option-3": "Pain feels like electric shocks",
-            "instructions": "Check all that apply",
-            "button-continue": "Continue"
+            "instructions": "Check all that apply"
         },
         "pain-2":
         {
@@ -147,19 +135,15 @@
             "option-2": "Pins and needles",
             "option-3": "Numbness",
             "option-4": "Itching",
-            "instructions": "Check all that apply",
-            "button-continue": "Continue"
+            "instructions": "Check all that apply"
         },
         "pain-3":
         {
             "question-1": "Is the pain provoked or increased by brushing?",
-            "button-left": "Yes",
-            "button-right": "No",
             "question-2": "Is the pain located in an area where the examination unveiled:",
             "option-1": "Increased sensitivity to touch",
             "option-2": "Increased sensitivity to pricking",
-            "instructions": "Check all that apply",
-            "button-continue": "Continue"
+            "instructions": "Check all that apply"
         }
     },
     "vibration":
@@ -167,72 +151,47 @@
         "vibration-intro":
         {
             "title": "Vibration Test",
-            "info": "This begins the vibration sensation test.\n\nYou will test three points on each leg.\n\n\nWhen pressing the phone to your leg,\nuse the flat part of the phone, not the edge.",
-            "button-continue": "Continue"
+            "info": "This begins the vibration sensation test.\n\nYou will test three points on each leg.\n\n\nWhen pressing the phone to your leg,\nuse the flat part of the phone, not the edge."
         },
         "left-leg-vibration-1":
         {
-            "left-leg": "Left leg",
             "instructions": "Press play to start vibrating, and press the phone flat against the bone in your great toe.",
-            "question": "Can you feel the vibration?",
-            "button-left": "Yes",
-            "button-right": "No"
+            "question": "Can you feel the vibration?"
         },
         "left-leg-vibration-2":
         {
-            "left-leg": "Left leg",
             "instructions": "Press play to start vibrating, and press the phone flat against the outside part of your ankle.",
-            "question": "Can you feel the vibration?",
-            "button-left": "Yes",
-            "button-right": "No"
+            "question": "Can you feel the vibration?"
         },
         "left-leg-vibration-3":
         {
-            "left-leg": "Left leg",
             "instructions": "Press play to start vibrating, and press the phone flat against the front of your knee.",
-            "question": "Can you feel the vibration?",
-            "button-left": "Yes",
-            "button-right": "No"
+            "question": "Can you feel the vibration?"
         },
         "left-leg-vibration-4":
         {
-            "left-leg": "Left leg",
             "instructions": "Put the phone aside.\n\n\nGrab your left great toe with your fingers and move it in all directions a couple of times.",
-            "question": "Can you feel the movement in the joints?",
-            "button-left": "Yes",
-            "button-right": "No"
+            "question": "Can you feel the movement in the joints?"
         },
         "right-leg-vibration-1":
         {
-            "right-leg": "Right leg",
             "instructions": "Press play to start vibrating, and press the phone flat against the bone in your great toe.",
-            "question": "Can you feel the vibration?",
-            "button-left": "Yes",
-            "button-right": "No"
+            "question": "Can you feel the vibration?"
         },
         "right-leg-vibration-2":
         {
-            "right-leg": "Right leg",
             "instructions": "Press play to start vibrating, and press the phone flat against the outside part of your ankle.",
-            "question": "Can you feel the vibration?",
-            "button-left": "Yes",
-            "button-right": "No"
+            "question": "Can you feel the vibration?"
         },
         "right-leg-vibration-3":
         {
-            "right-leg": "Right leg",
             "instructions": "Press play to start vibrating, and press the phone flat against the front of your knee.",
-            "question": "Can you feel the vibration?",
-            "button-left": "Yes",
-            "button-right": "No"
+            "question": "Can you feel the vibration?"
         },
         "right-leg-vibration-4":
         {
-            "right-leg": "Right leg",
             "instructions": "Put the phone aside.\n\n\nGrab your right great toe with your fingers and move it in all directions a couple of times.",
-            "question": "Can you feel the movement in the joints?",
-            "button-left": "Yes",
-            "button-right": "No"
+            "question": "Can you feel the movement in the joints?"
         },
         "overlay-feeling-extension":
         {
@@ -245,24 +204,17 @@
         "great-toe-test-information":
         {
             "title": "Motor examination",
-            "info": "Here you will test the strength of your great toes.\n\n\nThe great toe can usually resist a lot of pressure. In the test press down the great toe with your fingers while resisting the pressure.",
-            "button-continue": "Continue"
+            "info": "Here you will test the strength of your great toes.\n\n\nThe great toe can usually resist a lot of pressure. In the test press down the great toe with your fingers while resisting the pressure."
         },
         "right-motor":
         {
-            "right-great-toe": "Right great toe",
             "instructions": "Apply firm pressure with your fingers to the great toe.",
-            "question": "Is it difficult to overcome the pressure?",
-            "button-left": "Yes",
-            "button-right": "No"
+            "question": "Is it difficult to overcome the pressure?"
         },
         "left-motor":
         {
-            "left-great-toe": "Left great toe",
             "instructions": "Apply firm pressure with your fingers to the great toe.",
-            "question": "Is it difficult to overcome the pressure?",
-            "button-left": "Yes",
-            "button-right": "No"
+            "question": "Is it difficult to overcome the pressure?"
         },
         "overlay-motor":
         {
