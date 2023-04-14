@@ -32,14 +32,14 @@
         "welcome-screen":
         {
             "welcome": "Welcome! You do not have any completed examinations yet.",
-            "tap-to-start": "Click here to start a new one"
+            "tap-to-start": "Tap here to start a new one"
         }
     },
     "begin-examination":
     {
         "examination-information":
         {
-            "info": "The examination is a mix of questions and tasks to complete.\n\n\nA toothpick is needed for one of the activities.",
+            "info": "The examination is a mix of questions and tasks to complete.\n\n\nA needle or a safety pin is needed for some of the activities.",
             "button-start": "start examination"
         }
     },
@@ -57,19 +57,15 @@
         "prick-test-information":
         {
             "title": "Prick test",
-            "info": "Here you will test the prick-sensitivity of your legs using a toothpick.\n\n\nChoose either the neck or the clavicle area to use as reference\n\n\nPrick the reference area multiple times to compare sensitivity with the tested areas."
+            "info": "Here you will test the pin-prick sensitivity of your legs using a needle or a safety pin.\n\n\nChoose either the neck or the clavicle area to use as reference\n\n\nPrick the reference area multiple times to compare sensitivity with the tested areas."
         },
-        "right-prick":
+        "prick":
         {
-            "instructions": "Prick multiple spots in the blue area and select your general prick sensitivity compared to the reference area."
+            "instructions": "Prick multiple spots in the blue area and select your prick sensitivity compared to the reference area. Only compare the sharpness of the prick sensation, not touch."
         },
         "right-prick-end":
         {
             "completed": "Right leg completed!"
-        },
-        "left-prick":
-        {
-            "instructions": "Prick multiple spots in the blue area and select your general prick sensitivity compared to the reference area."
         },
         "left-prick-end":
         {
@@ -79,25 +75,23 @@
         {
             "title": "Pin-prick test",
             "info": "When pricking the area, follow the pictures. In sections 1-2 prick on the top of your foot, in sections 3-6 prick on the side of your leg. Try to avoid pricking directly over a bone.\n\nIf you feel the area is more sensitive to pricking than your referenced area, answer SIMILAR."
+        },
+        "pricking-warning":
+        {
+            "title": "Remember!",
+            "info": "Prick gently, to feel the sharpness, but not to break the skin!",
+            "button-understand": "I understand"
         }
     },
     "allodynia-hypersensitivity":
     {
-        "allodynia-left":
+        "allodynia":
         {
-            "question": "During the pin-prick examination, did you feel increased pain from pricking in any of the areas compared to the reference area?"
+            "question": "During the pin-prick examination, did you feel increased pain from pricking in the foot or toes?"
         },
-        "allodynia-right":
+        "hypersensitivity":
         {
-            "question": "During the pin-prick examination, did you feel increased pain from pricking in any of the areas compared to the reference area?"
-        },
-        "hypersensitivity-left":
-        {
-            "question": "Do you feel increased discomfort or pain when touching any of the examined areas?"
-        },
-        "hypersensitivity-right":
-        {
-            "question": "Do you feel increased discomfort or pain when touching any of the examined areas?"
+            "question": "Do you experience discomfort or pain when touching the foot or toes?"
         }
     },
     "symptoms":
@@ -118,7 +112,11 @@
     {
         "pain-skip":
         {
-            "instructions": "If you are experiencing pain, please answer the following questions.\n\nOtherwise, press the SKIP button."
+            "instructions": "If you are experiencing pain in your feet, please answer the following questions.\n\nOtherwise, press the SKIP button."
+        },
+        "pain-0":
+        {
+            "instructions": "On the scale below, mark your pain level."
         },
         "pain-1":
         {
@@ -139,11 +137,15 @@
         },
         "pain-3":
         {
-            "question-1": "Is the pain provoked or increased by brushing?",
-            "question-2": "Is the pain located in an area where the examination unveiled:",
-            "option-1": "Increased sensitivity to touch",
-            "option-2": "Increased sensitivity to pricking",
+            "question": "Is the pain located in an area where the examination unveiled:",
+            "option-1": "Decreased sensitivity to touch",
+            "option-2": "Decreased sensitivity to pricking",
             "instructions": "Check all that apply"
+        },
+        "pain-4":
+        {
+            "instructions": "Use your fingers to gently stroke the areas where the pain is present.",
+            "question": "Is the pain provoked or increased by the stroking?"
         }
     },
     "vibration":
@@ -151,46 +153,31 @@
         "vibration-intro":
         {
             "title": "Vibration Test",
-            "info": "This begins the vibration sensation test.\n\nYou will test three points on each leg.\n\n\nWhen pressing the phone to your leg,\nuse the flat part of the phone, not the edge."
+            "info": "This begins the vibration sensation test.\n\n\nYou will test three points on each leg.\n\n\nWhen pressing the phone to your leg,\nuse the backside of the phone, not the edge."
         },
-        "left-leg-vibration-1":
+        "leg-vibration-1":
         {
-            "instructions": "Press play to start vibrating, and press the phone flat against the bone in your great toe.",
+            "instructions": "Press play to start vibrating, and press the backside of the phone against the top side of the bone in your great toe.",
             "question": "Can you feel the vibration?"
         },
-        "left-leg-vibration-2":
+        "leg-vibration-2":
         {
-            "instructions": "Press play to start vibrating, and press the phone flat against the outside part of your ankle.",
+            "instructions": "Press play to start vibrating, and press the backside of the phone against the outside part of your ankle.",
             "question": "Can you feel the vibration?"
         },
-        "left-leg-vibration-3":
+        "leg-vibration-3":
         {
-            "instructions": "Press play to start vibrating, and press the phone flat against the front of your knee.",
+            "instructions": "Press play to start vibrating, and press the backside of the phone against the bone just below your kneecap.",
             "question": "Can you feel the vibration?"
         },
         "left-leg-vibration-4":
         {
-            "instructions": "Put the phone aside.\n\n\nGrab your left great toe with your fingers and move it in all directions a couple of times.",
+            "instructions": "Put the phone aside.\n\n\nGrab your left great toe with your fingers and move it up and down a couple of times.",
             "question": "Can you feel the movement in the joints?"
-        },
-        "right-leg-vibration-1":
-        {
-            "instructions": "Press play to start vibrating, and press the phone flat against the bone in your great toe.",
-            "question": "Can you feel the vibration?"
-        },
-        "right-leg-vibration-2":
-        {
-            "instructions": "Press play to start vibrating, and press the phone flat against the outside part of your ankle.",
-            "question": "Can you feel the vibration?"
-        },
-        "right-leg-vibration-3":
-        {
-            "instructions": "Press play to start vibrating, and press the phone flat against the front of your knee.",
-            "question": "Can you feel the vibration?"
         },
         "right-leg-vibration-4":
         {
-            "instructions": "Put the phone aside.\n\n\nGrab your right great toe with your fingers and move it in all directions a couple of times.",
+            "instructions": "Put the phone aside.\n\n\nGrab your right great toe with your fingers and move it up and down a couple of times.",
             "question": "Can you feel the movement in the joints?"
         },
         "overlay-feeling-extension":
@@ -206,12 +193,7 @@
             "title": "Motor examination",
             "info": "Here you will test the strength of your great toes.\n\n\nThe great toe can usually resist a lot of pressure. In the test press down the great toe with your fingers while resisting the pressure."
         },
-        "right-motor":
-        {
-            "instructions": "Apply firm pressure with your fingers to the great toe.",
-            "question": "Is it difficult to overcome the pressure?"
-        },
-        "left-motor":
+        "motor":
         {
             "instructions": "Apply firm pressure with your fingers to the great toe.",
             "question": "Is it difficult to overcome the pressure?"
